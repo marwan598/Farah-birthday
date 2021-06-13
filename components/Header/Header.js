@@ -15,7 +15,7 @@ import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
-import styles from "styles/jss/nextjs-material-kit/components/headerStyle.js";
+import styles from "../../styles/jss/nextjs-material-kit/components/headerStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -62,7 +62,7 @@ export default function Header(props) {
     [classes.fixed]: fixed,
   });
   const brandComponent = (
-    <Link href="/components" as="/components">
+    <Link href="/" as="/">
       <Button className={classes.title}>{brand}</Button>
     </Link>
   );
