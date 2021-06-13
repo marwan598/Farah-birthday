@@ -30,7 +30,7 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
-        color="warning"
+        color="transparent"
         routes={dashboardRoutes}
         brand="Farah's Birthday"
         rightLinks={<HeaderLinks />}
@@ -41,7 +41,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/landing-bg.jpg">
+      <Parallax filter responsive image="/img/Print/profile.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
